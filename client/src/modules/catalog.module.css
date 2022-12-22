@@ -1,0 +1,297 @@
+.catalogBanner {
+    margin: 125px 0 30px 0;
+    max-width: 100%;
+    height: 234px;
+    background: url("../images/catalog/catalog_banner.png") no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.catalogBannerTitle {
+    position: absolute;
+    top: 88px;
+    left: 200px;
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 22px;
+    color: #ffffff;
+}
+.catalogBannerText {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    position: absolute;
+    top: 128px;
+    left: 200px;
+}
+.title {
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 32px;
+    color: #000000;
+    margin: 0 0 20px 50px;
+}
+.catalogBody {
+    display: flex;
+}
+.catalogSorting {
+    background-color: #ffffff;
+    width: 300px;
+    height: 100%;
+    border-radius: 15px;
+    margin-left: 55px;
+    margin-right: 10px;
+    /* padding: 0 40px; */
+    /* flex: 0 1 35%; */
+    box-shadow: 5px 6px 16px rgba(42, 42, 42, 0.16);
+    /* overflow: hidden; */
+}
+.catalogTable {
+    position: relative;
+    width: 1000px;
+}
+.sortingPriceButton {
+    position: absolute;
+    content: "";
+    top: -30px;
+    right: -130px;
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    background-color: inherit;
+    color: #000000;
+    display: flex;
+    width: 50px;
+}
+@media (max-width: 1370px) {
+    .catalogTable {
+        width: 650px;
+    }
+}
+@media (min-width: 1800px) {
+    .catalogTable {
+        width: 1200px;
+    }
+}
+.catalogCard {
+    margin-bottom: 40px;
+}
+.accordeon {
+    transition: all 5s ease 0s;
+}
+.paginationButton {
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 22px;
+    color: #2a2a2a;
+    padding: 4px 9px;
+    margin-right: 5px;
+    background-color: #fcf3ed;
+}
+.paginationWrapper {
+    max-width: 200px;
+    margin: 0 auto;
+    text-align: center;
+    display: flex;
+}
+.paginationMargin {
+    margin-bottom: 20px;
+}
+.active {
+    border: 2px solid #2a2a2a;
+    border-radius: 7px;
+    transform: translate(0, -2px);
+}
+.paginateText,
+.paginateDisabled {
+    background-color: #fcf3ed;
+}
+.paginateText:hover {
+    color: #f9a43f;
+}
+.paginationButton:hover {
+    color: #f9a43f;
+}
+.activeText:hover {
+    color: #2a2a2a;
+}
+.accordeonHeader {
+    background-color: #fff;
+}
+.allCategoriasButton {
+    max-width: 258px;
+    margin-left: 15px;
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 19px;
+    color: #2a2a2a;
+    white-space: nowrap;
+}
+.catalogSortWrapper {
+    margin-bottom: 10px;
+}
+.sortingCategorias {
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 15px;
+    color: #2a2a2a;
+}
+.borderBottom {
+    border-bottom: 1px solid rgba(42, 42, 42, 0.12);
+}
+.priceInput {
+    border: 1px solid rgba(0, 0, 0, 0.38);
+    max-width: 75px;
+    max-height: 27px;
+    border-radius: 15px;
+    transform: translate(0, -1px);
+    text-align: center;
+    padding: 5px;
+}
+.priceInput:focus {
+    border: 2px solid #000;
+}
+.range {
+    max-width: 220px;
+    margin: 0 auto;
+}
+.priceAllInputs {
+    max-width: 200px;
+    margin: 0 auto;
+}
+.label {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: #2a2a2a;
+}
+.rouble {
+    font-family: "Trebuchet MS";
+    font-size: 20px;
+    color: #2a2a2a;
+}
+.buttonIcon {
+    transform: translate(4px, 0);
+}
+.sortChackboxWrapper {
+    margin: 20px 0 0 25px;
+}
+.checkboxLabel {
+    margin-left: 10px;
+    transform: translate(0, -2px);
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: #2a2a2a;
+}
+.checkboxSpan {
+    font-size: 14px;
+    margin: 0px 0 0 5px;
+    color: rgba(0, 0, 0, 0.38);
+}
+.catalogViewWrapper {
+    max-width: 340px;
+    margin: 0 auto;
+    text-align: center;
+}
+.catalogViewButton {
+    background-color: #ffffff;
+    border: 1px solid #2a2a2a;
+    border-radius: 15px;
+    padding: 13px 98px;
+    margin-bottom: 20px;
+    font-family: "Trebuchet MS";
+    font-size: 12px;
+    color: #2a2a2a;
+}
+.catalogViewButton:hover {
+    color: #f9a43f;
+    border: 1px solid #f9a43f;
+}
+.sortingCategoriasAncer {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: rgba(42, 42, 42, 0.85);
+}
+.sortingCategoriasAncer:hover {
+    color: #f9a43f;
+}
+.quastionWrapper {
+    max-width: 95%;
+    margin-left: 20px;
+}
+.quastionHead {
+    font-family: "Trebuchet MS";
+    font-weight: 700;
+    font-size: 19px;
+    color: #2a2a2a;
+    background-color: #fcf3ed;
+}
+.questionBody {
+    margin-top: 10px;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+    color: #2a2a2a;
+    background-color: #fcf3ed;
+}
+.questionbb {
+    background-color: #fcf3ed;
+    border-bottom: 2px solid rgba(42, 42, 42, 0.12);
+}
+.accordeonNavlink,
+.accordeonNavlinkAll {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: rgba(42, 42, 42, 0.85);
+    display: inline-block;
+}
+.accordeonNavlinkAllActive {
+    font-family: "Trebuchet MS";
+    font-size: 18px;
+    display: inline-block;
+    color: #fb791b;
+}
+.accordeonNavlink {
+    margin-top: 10px;
+}
+.accordeonNavlinkActive {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    display: inline-block;
+    color: #fb791b;
+}
+.accordeonNavlink:hover,
+.accordeonNavlinkAll:hover {
+    color: #fb791b;
+}
+.navigation,
+.navigationDisabled {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: #000000;
+    margin-right: 10px;
+}
+.navigation:hover {
+    color: #fb791b;
+}
+.navigationDisabled {
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    color: #b0b0b0;
+    margin-right: 10px;
+}
+.navigationDisabled:hover {
+    color: #b0b0b0;
+}
+.paginateDisabled {
+    color: #b0b0b0;
+    cursor: default;
+    display: inline-block;
+}
+.center {
+    display: flex;
+    justify-content: center;
+}
+.loading {
+    max-width: 1000px;
+    margin: 0 auto;
+}

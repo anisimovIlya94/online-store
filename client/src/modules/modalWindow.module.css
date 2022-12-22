@@ -1,0 +1,19 @@
+.modalBodyWrap {
+    position: relative;
+}
+.modalCloseButton {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+}
+.editModuleWidth {
+    max-width: 430px;
+    margin-bottom: 30px;
+}
+.editModuleWrapper {
+    max-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}

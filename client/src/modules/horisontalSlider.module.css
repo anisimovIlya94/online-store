@@ -1,0 +1,74 @@
+.slickMargin1 {
+    margin: 10px 0 0 90px;
+    transform: translate(0, -5px);
+}
+.slickWrapper1 {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.alice1 {
+    width: 730px;
+    display: flex;
+    align-items: center;
+}
+.rightButton1,
+.leftButton1 {
+    /* border: 0px solid #fcf3ed; */
+    max-height: 25px;
+    cursor: pointer;
+    background-color: #fcf3ed;
+}
+.rightButton1 {
+    margin: 0px 0px 0px 20px;
+}
+.leftButton1 {
+    margin: 0px 20px 0px 0px;
+}
+.horisontalImage1 {
+    padding: 10px 100px;
+    width: 730px;
+    height: 430px;
+    display: inline-block;
+    border-radius: 15px;
+    text-align: center;
+    background-color: #ffff;
+    /* overflow: hidden; */
+}
+@media (max-width: 1420px) {
+    .horisontalImage1 {
+        width: 630px;
+        padding: 10px 50px 10px 40px;
+    }
+    .alice1 {
+        width: 630px;
+    }
+    .slickMargin1 {
+        margin: 10px 0 0 70px;
+    }
+}
+@media (max-width: 1279px) {
+    .horisontalImage1 {
+        width: 580px;
+        padding: 10px 60px 10px 20px;
+    }
+    .alice1 {
+        width: 530px;
+    }
+    .slickMargin1 {
+        margin: 10px 0 0 30px;
+    }
+}
+
+@media (max-width: 1120px) {
+    .horisontalImage1 {
+        width: 450px;
+    }
+    .alice1 {
+        width: 400px;
+    }
+}
+@media (min-width: 1800px) {
+    .slickMargin1 {
+        margin: 10px 0 0 150px;
+    }
+}

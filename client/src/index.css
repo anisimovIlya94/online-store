@@ -1,0 +1,145 @@
+/*Обнуление*/
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 14px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+    font-family: inherit;
+}
+
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: 400;
+}
+/*--------------------*/
+body {
+    background-color: #fcf3ed;
+}
+
+.App {
+    position: relative;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    content: "";
+    min-width: 100%;
+    z-index: 2;
+}
+.title {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    color: #363636;
+    margin: 0 0 0 30px;
+}
+@media (max-width: 1800px) {
+    .title {
+        margin-left: calc(
+            30px + (220 - 30) * ((100vw - 1320px) / (1800 - 1320))
+        );
+    }
+}
+@media (min-width: 1800px) {
+    .title {
+        margin-left: 100px;
+    }
+}
+@media (max-width: 1320px) {
+    .title {
+        margin-left: 75px;
+    }
+}
+@media (max-width: 1400px) {
+    .title {
+        margin-left: 35px;
+    }
+}
+.navigation-flex {
+    display: flex;
+    margin-bottom: 30px;
+    margin-left: 25px;
+}
+.navigation-button {
+    margin-right: 10px;
+    font-family: "Trebuchet MS";
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    background-color: #fcf3ed;
+}
+.disabled-button {
+    color: #919191;
+    cursor: "default";
+}
+.active {
+    color: red;
+}

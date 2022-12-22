@@ -1,0 +1,139 @@
+.footer {
+    background-color: #2a2a2a;
+    padding: 59px 35px 35px 35px;
+    width: 100%;
+}
+.upDetail {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+    padding: 0 0 90px 0;
+}
+.iconAndAdress {
+    margin: 0px 0px 0px 0px;
+    text-align: left;
+}
+.adress {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+    max-width: 214px;
+    margin: 16px 0 0 0;
+}
+.catalog {
+    width: 171px;
+}
+.links,
+.catalog {
+    text-align: left;
+}
+.link {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+    color: #ffffff;
+    margin: 0px 0px 10px 0px;
+}
+.link:hover {
+    color: #fb791b;
+}
+.activeLink {
+    margin: 0px 0px 10px 0px;
+    color: #fb791b;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 22px;
+}
+.miniLink,
+.miniActiveLink {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+.miniLink {
+    color: #ffffff;
+}
+.miniActiveLink {
+    color: #fb791b;
+}
+.miniLink:hover {
+    color: #fb791b;
+    text-decoration: underline;
+}
+.contacts {
+    margin: 20px 0px 0px 0px;
+}
+.orderCall {
+    margin: 0px 0px 15px 0px;
+}
+.orderCallStyle {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    display: inline-block;
+    white-space: nowrap;
+    color: #f9a43f;
+    border: 1px solid #f9a43f;
+    border-radius: 9px;
+    padding: 15px 38px;
+    transform: translate(0, -25%);
+}
+.orderCallStyle:hover {
+    color: #2a2a2a;
+    background-color: #f9a43f;
+}
+.text {
+    text-align: right;
+    color: #ffffff;
+    margin: 30px 0px 0px 0px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.linkVk {
+    text-align: right;
+}
+.vkStyle {
+    border: 2px solid #f9a43f;
+    border-radius: 7px;
+    padding: 6px 3px;
+    transition: all 0.7s ease 0s;
+}
+.vkStyle:hover {
+    transform: scale(1.5);
+    transition: all 0.7s ease 0s;
+}
+.downDetail {
+    margin: 30px 0px 0px 0px;
+}
+.visa {
+    margin: 0px 12px;
+}
+.downText,
+.downLink {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.44);
+}
+.downLink:hover {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.right {
+    text-align: right;
+}
+.category {
+    margin-top: 10px;
+}

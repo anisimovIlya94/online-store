@@ -1,0 +1,29 @@
+.category {
+    margin: 20px 0px 0px 0px;
+    position: relative;
+    max-width: 100%;
+}
+.link,
+.activeLink {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    white-space: nowrap;
+}
+.link {
+    color: #2a2a2a;
+}
+.activeLink {
+    color: #fb791b;
+}
+.link:hover {
+    color: #fb791b;
+}
+.arrow {
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: "";
+    right: 5%;
+}

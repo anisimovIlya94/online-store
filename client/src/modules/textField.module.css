@@ -1,0 +1,67 @@
+.inputBoarder {
+    border: 1px solid #adadad;
+    width: 100%;
+    border-radius: 15px;
+    overflow: hidden;
+    padding: 10px;
+    font-size: 15px;
+    color: #2a2a2a;
+}
+.inputBoarder:focus {
+    border: 1px solid #2a2a2a;
+    box-shadow: 1px 1px 5px #2a2a2a;
+}
+.editTitle {
+    margin-bottom: 30px;
+    font-size: 22px;
+    font-weight: 700;
+    font-family: "Trebuchet MS";
+    color: #2a2a2a;
+    text-align: center;
+}
+.editModuleWidth {
+    max-width: 430px;
+    margin-bottom: 30px;
+}
+.editModuleWrapper {
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 30px 0;
+}
+.modalBodyWrap {
+    position: relative;
+}
+.modalCloseButton {
+    position: absolute;
+    content: "";
+    top: 10px;
+    right: 15px;
+    font-size: 20px;
+}
+.checkBox {
+    font-size: 17px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.inputWrapper {
+    position: relative;
+}
+.lookButton {
+    position: absolute;
+    border-radius: 15px;
+    /* background-color: #FB791B; */
+    border-right: 1px solid #adadad;
+    border-top: 1px solid #adadad;
+    border-bottom: 1px solid #adadad;
+    /* overflow: hidden; */
+    padding: 8px 8px 6px 8px;
+    content: "";
+    top: 0px;
+    right: -10px;
+    font-size: 25px;
+    background-color: #ffff;
+}
+.error {
+    color: red;
+    margin-top: 5px;
+}

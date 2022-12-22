@@ -1,0 +1,61 @@
+.adminWrapper {
+    margin: 165px 0 0px 0;
+    width: 100%;
+}
+.adminWrapper,
+.adminAddWrapper {
+    height: 100%;
+    font-family: "Trebuchet MS";
+    color: #2a2a2a;
+    font-size: 20px;
+}
+.adminAddWrapper {
+    max-width: 600px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+.title {
+    font-weight: 700;
+    font-size: 32px;
+    margin-left: 50px;
+    margin-bottom: 20px;
+}
+.adminMainWrapper {
+    margin-left: 50px;
+    display: flex;
+}
+.adminMainNavigation {
+    /* max-width: 350px; */
+    height: 180px;
+    background-color: #fff;
+    padding: 30px 22px 15px 9px;
+    border-radius: 15px;
+    font-size: 16px;
+    flex: 0 1 20%;
+}
+@media (max-width: 1246px) {
+    .adminMainNavigation {
+        height: 220px;
+    }
+}
+.adminMainNavList li {
+    margin-bottom: 30px;
+}
+.adminMainNavButton {
+    background-color: #fff;
+    color: #2a2a2a;
+}
+.adminMainNavButton:hover {
+    color: #fb791b;
+}
+.active {
+    font-size: 19px;
+    font-weight: 700;
+}
+.adminRight {
+    flex: 0 1 80%;
+    /* width: 100%; */
+}
+.adminProductsWrapper {
+    padding: 0 20px 20px 20px;
+}

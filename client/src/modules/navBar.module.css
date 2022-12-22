@@ -1,0 +1,121 @@
+.wrapper {
+    background-color: #f1f1f1;
+    padding: 17px 10px;
+    position: relative;
+}
+.navFlex {
+    margin: 0 auto;
+    padding: 0 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+@media (min-width: 1500px) {
+    .navFlex {
+        padding: 0 70px;
+    }
+}
+.navLinks,
+.activeNavLinks {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+}
+.navLinks {
+    color: #2a2a2a;
+}
+.activeNavLinks {
+    color: #fb791b;
+}
+.navLinks:hover {
+    color: #fb791b;
+}
+.navLinkHover {
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fb791b;
+}
+.burger {
+    margin: 0px 15px 0px -20px;
+    transform: translate(0, 20%);
+}
+.openedCatalogWrapper {
+    /* position: fixed;
+   top: 0;
+   left: 0;
+   content: '';
+   width: 100%;
+   height: 100%;
+   background-color: rgba(242, 242, 242, 0.55);
+   overflow: hidden;
+   z-index: 2; */
+}
+.openedCatalog {
+    width: 100%;
+    /* height: 360px; */
+    background-color: #f1f1f1;
+    position: absolute;
+    content: "";
+    top: 0px;
+    left: 0;
+    display: flex;
+    border-bottom: 2px solid rgba(42, 42, 42, 0.26);
+    /* overflow: hidden; */
+    /* z-index: 50; */
+}
+.closeBtn {
+    padding: 13px 82px 16px 30px;
+}
+.closeBtnSpan {
+    margin: 0px 0px 0px 18px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #2a2a2a;
+}
+.closeBtnSpanHover {
+    color: #fb791b;
+    margin: 0px 0px 0px 18px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+}
+.leftColumn {
+    flex: 0 1 25%;
+    border-right: 2px solid rgba(42, 42, 42, 0.26);
+}
+@media (max-width: 1100px) {
+    .leftColumn {
+        flex: 0 1 30%;
+    }
+}
+.categories {
+    border-top: 2px solid rgba(42, 42, 42, 0.26);
+}
+.rightColumn {
+    flex: 0 1 75%;
+}
+.center {
+    /* margin: 120px 0px 0 0; */
+    /* transform: translate(0,-50%); */
+    /* width: 70%; */
+}
+.gg {
+    /* padding: 40px 0 0 30px; */
+    /* text-align: left; */
+    max-height: 100px;
+}
+.hh {
+    margin: 40px 0 0 0px;
+    /* text-align: left; */
+}
+.open {
+    margin-top: 70px;
+}

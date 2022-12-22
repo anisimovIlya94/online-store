@@ -1,0 +1,198 @@
+body {
+    font-family: "Rubik", sans-serif;
+    color: #071739;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: rgba(140, 140, 140, 0.1);
+}
+body .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    padding-top: 25px;
+    margin-top: 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 20px 0px rgba(39, 70, 132, 0.2);
+    background: #fff;
+    overflow: hidden;
+}
+body .card h2 {
+    margin-bottom: 40px;
+}
+body .card .current-value {
+    width: 100%;
+}
+body .card .current-value label {
+    display: inline-flex;
+    width: 50px;
+    font-size: 20px;
+}
+body .card .current-value input {
+    margin: 0;
+    max-width: 40px;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: white;
+    padding: 5px;
+    padding-left: 15px;
+    border: none;
+    border-radius: 20px;
+    background: #274684;
+}
+body .card .values {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 600;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    width: 240px;
+}
+body .card #slider {
+    position: relative;
+    margin: 0 auto;
+    width: 240px;
+    height: 5px;
+    background: #709fdc;
+    border-radius: 5px;
+    cursor: pointer;
+}
+body .card #slider #min {
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    width: 0;
+    height: 5px;
+    border-radius: 5px;
+    background: #709fdc;
+}
+body .card #slider #min:hover::before {
+    opacity: 1;
+}
+body .card #slider #min:hover::after {
+    opacity: 1;
+}
+body .card #slider #min::before {
+    opacity: 0;
+    content: attr(data-content);
+    display: block;
+    position: absolute;
+    top: -40px;
+    right: -23px;
+    width: 40px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    background: #274684;
+    border-radius: 20px;
+}
+body .card #slider #min::after {
+    opacity: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -18px;
+    right: -8px;
+    border-top: 8px solid #274684;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+body .card #slider #min #min-drag {
+    position: absolute;
+    right: -7.5px;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #071739;
+    transition: all 0.3s;
+}
+body .card #slider #min #min-drag:hover {
+    box-shadow: 0 0 0 6px rgba(39, 70, 132, 0.2);
+}
+body .card #slider #max {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    width: 0;
+    height: 5px;
+    border-radius: 5px;
+    background: #274684;
+}
+body .card #slider #max:hover::before {
+    opacity: 1;
+}
+body .card #slider #max:hover::after {
+    opacity: 1;
+}
+body .card #slider #max::before {
+    opacity: 0;
+    content: attr(data-content);
+    display: block;
+    position: absolute;
+    top: -40px;
+    right: -23px;
+    width: 40px;
+    padding: 3px;
+    text-align: center;
+    color: white;
+    background: #274684;
+    border-radius: 20px;
+}
+body .card #slider #max::after {
+    opacity: 0;
+    content: "";
+    display: block;
+    position: absolute;
+    top: -18px;
+    right: -8px;
+    border-top: 8px solid #274684;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+}
+body .card #slider #max #max-drag {
+    position: absolute;
+    right: -7.5px;
+    top: -5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #071739;
+    transition: all 0.3s;
+}
+body .card #slider #max #max-drag:hover {
+    box-shadow: 0 0 0 6px rgba(39, 70, 132, 0.2);
+}
+
+.fa-instagram {
+    position: absolute;
+    color: #071739;
+    top: 3%;
+    right: 2%;
+    font-size: 38px;
+}
+
+.fa-instagram:hover {
+    font-size: 42px;
+    color: #274684;
+    transition: all 0.1s linear;
+    cursor: pointer;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+*:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px #709fdc;
+}

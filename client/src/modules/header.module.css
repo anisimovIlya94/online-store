@@ -1,0 +1,182 @@
+/* .header{
+   position: fixed;
+   min-width: 100%;
+} */
+.wrapper {
+    background-color: #2a2a2a;
+    padding: 15px 0px;
+}
+.hat {
+    max-height: 82px;
+    margin: 0 0 0 10px;
+}
+.input {
+    width: 555px;
+    min-height: 38px;
+    border-radius: 9px;
+    background-color: #f1f1f1;
+    padding: 0 0 0 12px;
+    font-size: 20px;
+}
+
+.search {
+    position: relative;
+    margin: 0 30px 0 0;
+}
+.magnifier {
+    position: absolute;
+    content: "";
+    top: 9px;
+    right: 10px;
+}
+.close {
+    position: absolute;
+    content: "";
+    top: 9px;
+    right: 50px;
+    font-size: 20px;
+}
+.telephone {
+    margin: 5px 10px 0px 0px;
+    max-width: 100%;
+    max-height: 25.31px;
+}
+.telephoneNumber {
+    margin: 7px 0 0 0px;
+    font-family: "Trebuchet MS";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    white-space: nowrap;
+    color: #ffffff;
+}
+.personalAccount {
+    background-color: #2a2a2a;
+}
+.shoppingCart {
+    background-color: #2a2a2a;
+    max-width: 100%;
+    margin: 0px 0 0 40px;
+}
+.fff {
+    background-color: #2a2a2a;
+    transform: translate(0, -2px);
+    color: #ffffff;
+    font-size: 40px;
+}
+.fff:hover {
+    color: #fb791b;
+}
+.searchingDropdown {
+    width: 100%;
+}
+.searchingImage {
+    width: 80px;
+    height: 80px;
+    margin-left: 10px;
+}
+.searchingCardInfo {
+    margin-left: 30px;
+    color: #2a2a2a;
+}
+.searchingCardName {
+    font-size: 20px;
+    font-weight: 700;
+    color: #2a2a2a;
+}
+.searchingCardName:hover {
+    color: #fb791b;
+}
+.searchingCardPrice {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #2a2a2a;
+}
+
+.searchingLinkAll {
+    font-size: 17px;
+    font-weight: 500;
+    margin-top: 20px;
+    color: #2a2a2a;
+}
+.searchingLinkAll:hover {
+    color: #fb791b;
+}
+.adminButton {
+    font-size: 26px;
+    color: #ffffff;
+    display: inline-block;
+    transform: translate(0, 5px);
+    background-color: inherit;
+}
+.adminButton:hover {
+    color: #fb791b;
+}
+.adminLink,
+.adminOut {
+    font-size: 18px;
+    padding: 10px;
+    /* margin-bottom: 20px; */
+    color: #2a2a2a;
+}
+.adminOut {
+    margin: 10px 0 0 50px;
+    background-color: inherit;
+    display: inline-block;
+}
+.adminLink:hover,
+.adminOut:hover,
+.cartIcon:hover,
+.menuLink:hover {
+    color: #fb791b;
+}
+.cartIcon {
+    color: #ffffff;
+    font-size: 32px;
+    transform: translate(0, -5px);
+    display: inline-block;
+}
+.menuLink {
+    font-size: 18px;
+    margin: 5px 0 5px 10px;
+    display: inline-block;
+    color: #2a2a2a;
+    text-align: center;
+}
+@media (max-width: 1200px) {
+    .input {
+        width: 455px;
+    }
+}
+@media (max-width: 1100px) {
+    .input {
+        width: 390px;
+    }
+    .search {
+        margin: 0 10px 0 0;
+    }
+    .telephoneNumber {
+        margin: 7px 5px 0 0px;
+    }
+}
+@media (max-width: 1000px) {
+    .input {
+        width: 325px;
+    }
+}
+@media (max-width: 915px) {
+    .input {
+        width: 290px;
+    }
+}
+@media (min-width: 1600px) {
+    .input {
+        width: 855px;
+    }
+}
+@media (min-width: 1800px) {
+    .input {
+        width: 1055px;
+    }
+}
